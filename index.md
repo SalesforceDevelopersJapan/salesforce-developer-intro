@@ -2,36 +2,37 @@
 layout: home
 title: Salesforce Developer Workshop
 ---
-In this tutorial, you use the Salesforce Platform to build a conference management application that allows conference 
-administrators to manage all the
-aspects of a conference: sessions, speakers, hotels, etc. You also create a simple consumer-facing application that allows conference attendees to view the conference schedule, and learn more about sessions and speakers.
+このチュートリアルでは、Salesforceプラットフォームを使用してカンファレンス管理アプリケーションを作成し、
+カンファレンスの運営担当者がセッション、スピーカー、ホテルなどカンファレンスに関わるあらゆる情報を管理できるようにします。
+また、シンプルなコンシューマ向けアプリケーションを作成して、カンファレンスの参加者がスケジュールを確認したり、
+セッションやスピーカーについて詳しい情報を入手したりできるようにします。
 
-## What You Will Learn
+## 学習する内容
 
-- Create Apex Classes
-- Use SOQL and DML to query, create, update and delete data
-- Create Triggers
-- Create Visualforce Pages
-- Create Controller Extensions and Custom Controllers
+- Apex クラスの作成
+- SOQL と DML を使用したデータのクエリ、作成、更新、削除 
+- トリガの作成
+- Visualforce ページの作成
+- コントローラ拡張機能とカスタムコントローラの作成
 
-## Prerequisites
+## 前提条件
 
-- To complete this workshop, all you need is a modern browser and a connection to the Internet
-- No prior knowledge of Salesforce is required
-- A working knowledge of Object-Oriented Programming is assumed
+- このワークショップを進めるために必要なのは、最新のブラウザとインターネット接続のみです。
+- Salesforce の予備知識は必要ありません。
+- オブジェクト指向プログラミングに関する実用的な知識を持っている方を対象としています。
 
 
-## Browser Requirements
+## ブラウザ要件
 
-The following browsers are supported when working with the Developer Console:
+開発者コンソールの操作では、次のブラウザがサポートされます:
 
-  - Most recent version of Google Chrome
-  - Most recent version of Mozilla Firefox
-  - Most recent version of Safari
-  - Internet Explorer 9 or higher
+  - 最新バージョンの Google Chrome
+  - 最新バージョンの Mozilla Firefox 
+  - 最新バージョンの Safari
+  - Internet Explorer 9 以降
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="Creating-a-Developer-Edition-Account.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="Creating-a-Developer-Edition-Account.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
