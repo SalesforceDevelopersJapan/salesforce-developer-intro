@@ -1,56 +1,56 @@
 ---
 layout: module
-title: Module 2&#58; Importing Workshop Assets
+title: モジュール 2&#58; ワークショップ用パッケージのインポート
 ---
-In this module, you import an unmanaged package that loads custom objects, and tabs for the conference application.
+このモジュールでは、未管理パッケージをインポートして、カンファレンス管理アプリケーションに必要なカスタムオブジェクトやタブを読み込みます。
 
-## Step 1: Import the Package
+## ステップ 1: パッケージをインポートする
 
-1. Login into your Developer Edition account
+1. DeveloperEditionアカウントにログインします。
 
-1. Access the following URL: 
+1. 次のURLにアクセスします:
 
     [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE)
 
-1. On the **Package Installation Details** screen, click the **Continue** button
+1. **パッケージインストールの詳細**画面で、**次へ**ボタンをクリックします。
 
-1. Click **Next**, **Next**, **Install**
+1. **次へ**、**次へ**、**インストール**の順にクリックします。
 
-## Step 2: Examine the Imported Assets
+## ステップ 2: インポートしたパッケージを確認する
 
-1. Click the **Setup** link (upper right corner)
+1. **設定**リンクをクリックします(画面の右上)。
 
     ![](images/setup.jpg)
 
-1. To examine the imported **Custom Objects**:
-    - In the left navigation, select **Build** > **Create** > **Objects**
-    - Click any of the objects (Session, Speaker, Session_Speaker), and examine the **Standard Fields** and **Custom Fields & Relationships** sections.
+1. 次の手順を実行し、インポートした**カスタムオブジェクト**を確認します。:
+    - 左側のナビゲーションで、**ビルド**>**作成**>**オブジェクト**の順に選択します。
+    - 任意のオブジェクト(Session、Speaker、Session_Speaker のいずれか)をクリックして、**標準項目**と**カスタム 項目&リレーション**のセクションを確認します。
 
-1. To examine the imported **Tabs**:
-    - In the left navigation, select **Build** > **Create** > **Tabs**
+1. 次の手順を実行し、インポートした**タブ**を確認します
+    - 左側のナビゲーションで、**ビルド**>**作成**>**タブ**の順に選択します。
 
-1. To examine the imported **App**:
-    - In the left navigation, select **Build** > **Create** > **Apps**
-    - Click the **Conference** link, click the **Edit** button, and examine the **Selected Tabs** and the user profiles that have access to the application (System Administrator).
+1. 次の手順を実行し、インポートした**アプリケーション**を確認します。
+    - 左側のナビゲーションで、**ビルド**>**作成**>**アプリケーション**の順に選択します。
+    - **Conference**リンクをクリックして、**編集**ボタンをクリックし、**選択されたタブ**と、アプリケーションにアクセス可能なユーザプロファイル(システム管理者)を確認します。
 
-## Step 3: Enter Sample Data
+## ステップ 3: サンプルデータを入力する
 
-1. Select **Conference** in the App selector (upper right corner of the screen)
+1. アプリケーション選択メニューで**Conference**を選択します(画面の右上)。
 
     ![](images/conference-app.jpg)
 
-1. Click the **Speakers Tab**, click **New**, and add a few sample speakers
+1. **Speakers**タブをクリックして**新規**をクリックし、スピーカーのサンプルレコードを何件か作成します。
 
-1. Click the **Sessions Tab**, click **New**, and  add a few sample sessions
+1. **Sessions**タブをクリックして**新規**をクリックし、セッションのサンプルレコードを何件か作成します。
 
-1. To assign speakers to a session:
-  - In the details view for a session, click **New Session Speaker**
-  - Click the magnifier icon next to the Speaker field, select a speaker in the Speaker lookup dialog and click **Save**
+1. 次の手順を実行し、セッションにスピーカーを割り当てます:
+  - 任意の Session レコードで詳細ビューを開き、**新規 Session Speaker**をクリックします
+  - **Speaker**項目の横にある虫眼鏡のアイコンをクリックすると、検索ダイアログが表示されます。そこからスピーカーを選択して**保存**をクリックします。
 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="Creating-a-Developer-Edition-Account.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="Creating-an-Apex-Class.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="Creating-a-Developer-Edition-Account.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="Creating-an-Apex-Class.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
