@@ -1,7 +1,7 @@
 # Salesforce Developer Workshop
 
-Supporting files for the workshop.
+ワークショップの実施のためのチュートリアルサイト及びファイルです。
 
-Step-by-step workshop instructions are available here:
+ステップバイステップのワークショップの手順がこちらに記されています:
 
-[http://ccoenraets.github.io/salesforce-developer-workshop/](http://ccoenraets.github.io/salesforce-developer-workshop/)
+[http://salesforcedevelopersjapan.github.io/salesforce-developer-intro/](http://salesforcedevelopersjapan.github.io/salesforce-developer-intro/)
